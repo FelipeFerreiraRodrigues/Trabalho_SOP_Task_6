@@ -102,10 +102,10 @@ Resultado:
 ---
 
 ### Código e quebra feita
-<img width="728" height="373" alt="image" src="https://github.com/user-attachments/assets/5521876c-d0b4-42f9-8928-13551aa95666" />
+<img width="728" height="261" alt="image" src="https://github.com/user-attachments/assets/9ca1f85b-4853-4a39-8be4-b48107901520" />
 
 ### Senhas e Hash
-<img width="1919" height="388" alt="image" src="https://github.com/user-attachments/assets/a5ff1353-888c-47fc-abbe-f40aa5d73fcb" />
+<img width="1919" height="296" alt="image" src="https://github.com/user-attachments/assets/9876f808-5588-4929-84f8-cf91bdfa8ff1" />
 
 ## Análise de risco - Senhas Fracas | 
 
