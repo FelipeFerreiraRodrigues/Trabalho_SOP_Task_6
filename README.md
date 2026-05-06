@@ -1,19 +1,19 @@
-# Relatório sobre a Atividade 6 - Segurança e Redes
+# Relatório sobre a Atividade 6 - Segurança e Redes | 🛡️
 
 ### Por Felipe, Breno, Eduardo e Lívia M. - 06/05/26
 
-## Introdução
+## Introdução | 📄
 
 Esse projeto ns foi designado com foco em testes de penetração e segurança ofensiva. O objetivo é compreender como a vulnerabilidade em credenciais e lógica de software podem ser exploradas por equipes especializadas em ataques, utilizando da distro Kali Linux com ambiente de testes controlados.
 
-## Objetivos
+## Objetivos | 🎯
 
 ### - Compreender técnicas de quebra de hashes e ataques de força bruta
 ### - Compreender os fundamentos da engenharia reversa em binário simples
 ### - Analisar ferramentas padrão do mercado (John the Ripper, Hashcat, Hydra)
 ### - Propor boas práticas de segurança
 
-## Ferramentas utilizadas
+## Ferramentas utilizadas | 🖥️
 
 ### John the Ripper
 
@@ -27,7 +27,7 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 
 - Função principal: Distro Linux que permite usar funções de criptografia e cybersegurança.
 
-## Instalação
+## Instalação | 💽
 
 ### Instalação Tools Kit
 <img width="798" height="597" alt="image" src="https://github.com/user-attachments/assets/47315cee-8392-4aef-9c6e-5ffb95e40067" />
@@ -66,11 +66,11 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 ### Senhas e Hash
 <img width="1919" height="388" alt="image" src="https://github.com/user-attachments/assets/a5ff1353-888c-47fc-abbe-f40aa5d73fcb" />
 
-## Análise de risco - Senhas Fracas
+## Análise de risco - Senhas Fracas | ❗
 
 - Senhas fracas ou uso de criptografia frágil tendem a serem facilmente quebradas como mostrado acima. Portanto, é importante que se crie boas práticas de cybersegurança em ambiente particular e em ambiente de trabalho pra evitar problemas futuros.
 
-## Guia de boas práticas
+## Guia de boas práticas | ✅
 
 - Propomos um guia de boas práticas na criação de senha e escolha de criptografia, estas práticas ajudam na melhora de segurança do usuário e empresa.
 
