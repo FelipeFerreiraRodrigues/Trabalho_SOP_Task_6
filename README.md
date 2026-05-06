@@ -1,6 +1,6 @@
 # Relatório sobre a Atividade 6 - Segurança e Redes | 🛡️
 
-### Por Felipe, Breno, Eduardo e Lívia M. - 06/05/26
+### Por Felipe, Breno, Eduardo e Livia M. - 06/05/26
 
 ## Introdução | 📄
 
@@ -10,7 +10,7 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 
 ### - Compreender técnicas de quebra de hashes e ataques de força bruta
 ### - Compreender os fundamentos da engenharia reversa em binário simples
-### - Analisar ferramentas padrão do mercado (John the Ripper, Hashcat, Hydra)
+### - Analisar ferramentas padrão do mercado (John the Ripper)
 ### - Propor boas práticas de segurança
 
 ## Ferramentas utilizadas | 🖥️
