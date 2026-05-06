@@ -48,6 +48,29 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 ### Tela inicial do Hydra
 <img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/4e1629b1-eb38-48f5-af27-2f56f0fd586d" />
 
+## 🔑 Etapa 1 - Criação de Senhas Fracas
+
+Exemplos utilizados:
+- 123456  
+- senha123  
+- admin123  
+- qwerty  
+- senai2026  
+- aluno123  
+
+Essas senhas simulam erros comuns de usuários.  
+
+---
+
+## 🔐 Etapa 2 - Geração de Hashes
+
+Exemplo MD5:
+
+echo -n "senha123" | md5sum
+
+Exemplo SHA-256:
+
+echo -n "senai2026" | sha256sum
 ### Senhas Salvas
 <img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/0d1631b7-dd21-4c1f-a9e9-14274323ac80" />
 
@@ -60,15 +83,39 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 ### Hashes e código John Ripper
 <img width="1919" height="471" alt="image" src="https://github.com/user-attachments/assets/540220c6-5484-4d5c-9622-daf346eea39d" />
 
+## 💥 Etapa 3 - Quebra com John the Ripper
+
+Comando:
+
+john --wordlist=senhas.txt hashes.txt
+
+
+Exibir resultado:
+
+john --show hashes.txt
+
+
+Resultado:
+- Senhas simples foram descobertas rapidamente  
+- Ataque por dicionário foi suficiente  
+
+---
+
 ### Código e quebra feita
 <img width="728" height="373" alt="image" src="https://github.com/user-attachments/assets/5521876c-d0b4-42f9-8928-13551aa95666" />
 
 ### Senhas e Hash
 <img width="1919" height="388" alt="image" src="https://github.com/user-attachments/assets/a5ff1353-888c-47fc-abbe-f40aa5d73fcb" />
 
-## Análise de risco - Senhas Fracas | ❗
+## Análise de risco - Senhas Fracas | 
 
-- Senhas fracas ou uso de criptografia frágil tendem a serem facilmente quebradas como mostrado acima. Portanto, é importante que se crie boas práticas de cybersegurança em ambiente particular e em ambiente de trabalho pra evitar problemas futuros.
+| Risco                  | Exemplo     | Impacto           | Mitigação                |
+|-----------------------|------------|------------------|--------------------------|
+| Senha curta           | 123456     | Acesso indevido  | Usar senha longa         |
+| Dados pessoais        | diogo123   | Fácil quebra     | Evitar dados pessoais    |
+| Reutilização          | mesma senha| Efeito cascata   | Senhas únicas            |
+| Sem autenticação 2FA  | login simples | Alta exposição | Ativar 2FA               |
+| Hash fraco            | MD5        | Quebra rápida    | Usar hash seguro + salt  |
 
 ## Guia de boas práticas | ✅
 
