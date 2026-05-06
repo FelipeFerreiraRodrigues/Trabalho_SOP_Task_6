@@ -15,21 +15,17 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 
 ## Ferramentas utilizadas
 
-### Hydra
-
-- Função principal: Ataques de dicionário e força bruta (SSH, FTP, HTTP)
-
 ### John the Ripper
 
 - Função principal: Quebra de senhas offline (Detecção automática em Hashes).
 
-### Hashcat
+### Criptografia md5sum
 
-- Função principal: Quebra de Hashes de alta performance utilizando aceleração por CPU/GPU.
+- Função principal: Transformar textos em Hashes.
 
-## Técnicas Exploradas
+### Kali Linux
 
-###
+- Função principal: Distro Linux que permite usar funções de criptografia e cybersegurança.
 
 ## Instalação
 
@@ -52,10 +48,37 @@ Esse projeto ns foi designado com foco em testes de penetração e segurança of
 ### Tela inicial do Hydra
 <img width="1919" height="941" alt="image" src="https://github.com/user-attachments/assets/4e1629b1-eb38-48f5-af27-2f56f0fd586d" />
 
+### Senhas Salvas
+<img width="1919" height="791" alt="image" src="https://github.com/user-attachments/assets/0d1631b7-dd21-4c1f-a9e9-14274323ac80" />
+
+### Gerações de Hash
+- Base md5sum
+<img width="1919" height="795" alt="image" src="https://github.com/user-attachments/assets/fc09bff3-479f-411d-898e-01a739f9d562" />
+- Base sha256sum
+<img width="1456" height="786" alt="image" src="https://github.com/user-attachments/assets/dbe9234c-a919-4eec-b307-0cf473e43e2e" />
+
+### Hashes e código John Ripper
+<img width="1919" height="471" alt="image" src="https://github.com/user-attachments/assets/540220c6-5484-4d5c-9622-daf346eea39d" />
+
+### Código e quebra feita
+<img width="728" height="373" alt="image" src="https://github.com/user-attachments/assets/5521876c-d0b4-42f9-8928-13551aa95666" />
+
+### Senhas e Hash
+<img width="1919" height="388" alt="image" src="https://github.com/user-attachments/assets/a5ff1353-888c-47fc-abbe-f40aa5d73fcb" />
+
 ## Análise de risco - Senhas Fracas
 
-###
+- Senhas fracas ou uso de criptografia frágil tendem a serem facilmente quebradas como mostrado acima. Portanto, é importante que se crie boas práticas de cybersegurança em ambiente particular e em ambiente de trabalho pra evitar problemas futuros.
 
 ## Guia de boas práticas
 
-###
+- Propomos um guia de boas práticas na criação de senha e escolha de criptografia, estas práticas ajudam na melhora de segurança do usuário e empresa.
+
+### - Criação de senhas com no mínimo 12 carácteres
+### - Evitar o uso de nomes, dados pessoais, número telefonico e palavras comuns
+### - Usar palavras-chave
+### - Não reutilizar senhas em locais distintos
+### - Utilizar de gerenciador de senhas
+### - Ativar verificação em dois fatores
+### - Limitar tentativas de login (Bloquear após pelo menos 3 tentativas)
+### - Utilizar de Hashes seguros
